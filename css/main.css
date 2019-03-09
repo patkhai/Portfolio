@@ -119,6 +119,15 @@ h1, .h01 {
 	line-height: 1.355;
 	letter-spacing: -.1rem;
 }
+h10 { 
+	font-family: "poppins-semibold", sans-serif;
+	color: #fffbfb;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	margin-bottom: 2.1rem;
+	font-size: 2.6rem;
+    letter-spacing: -.07rem;
+}
 @media only screen and (max-width:600px) {
 	h1, .h01 {
 		font-size: 2.6rem;
@@ -694,8 +703,8 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-	background: #313131;
-	color: #FFFFFF;
+	background: #ffc401;
+	color: rgb(5, 0, 0);
 }
 .button.button-primary:hover,
 a.button.button-primary:hover,
@@ -708,7 +717,7 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-	background: #1f1f1f;
+	background: #fc0000c2;
 }
 button.full-width, .button.full-width {
 	width: 100%;
@@ -736,8 +745,8 @@ button.stroke.large, .button.stroke.large {
 	line-height: 5.4rem !important;
 }
 button.stroke:hover, .button.stroke:hover {
-	border: 3px solid #FF0077;
-	color: #FF0077;
+	border: 3px solid rgb(11, 247, 196);
+	color: rgb(0, 255, 191);
 }
 button::-moz-focus-inner, input::-moz-focus-inner {
 	border: 0;
@@ -963,7 +972,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	line-height: 2.4rem;
 }
 .skill-bars li .progress {
-	background: #313131;
+	background: #e40000;
 	position: relative;
 	height: 100%;
 }
@@ -1036,7 +1045,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .section-intro h1 {
 	font-family: "poppins-semibold", serif;
 	font-size: 3.6rem;
-	color: #313131;
+	color: #000000;
 	line-height: 1.25;
 	margin-bottom: 1.2rem;
 }
@@ -1384,7 +1393,7 @@ header .logo a {
 	letter-spacing: .25rem;
 }
 .intro-content .button:hover, .intro-content .button:focus {
-	border-color: #cc005f;
+	border-color: #03ffd5;
 }
 .intro-content .button::after {
 	display: inline-block;
@@ -1630,7 +1639,7 @@ header .logo a {
 	text-align: center;
 }
 #resume .resume-header h2 {
-	color: #FF0077;
+	color: rgb(230, 6, 6);
 }
 
 #resume .resume-timeline {
@@ -1676,7 +1685,7 @@ header .logo a {
 
 #resume .timeline-header {
 	float: left;
-	width: 35%;
+	width: 40%;
 	padding-right: 90px;
 	text-align: right;
 }
@@ -2251,18 +2260,18 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #contact {
-	background: #151515;
+	background: #2b3980;
 	padding-top: 12rem;
 	padding-bottom: 7.2rem;
 }
 #contact .section-intro h1 {
-	color: white;
+	color: rgb(255, 253, 253);
 }
 #contact .section-intro h5 {
-	color: rgb(0, 255, 191);
+	color: rgb(248, 10, 10);
 }
 #contact .section-intro p {
-	color: rgba(255, 255, 255, 0.7);
+	color: rgba(255, 255, 255, 0.952);
 }
 
 /* contact form */
@@ -2271,19 +2280,19 @@ header .logo a {
 }
 
 .contact-form ::-webkit-input-placeholder {
-	color: rgba(255, 255, 255, 0.3);
+	color: rgba(247, 245, 245, 0.452);
 }
 .contact-form :-moz-placeholder {
-	color: rgba(255, 255, 255, 0.3);  /* Firefox 18- */
+	color: rgb(252, 252, 252);  /* Firefox 18- */
 }
 .contact-form ::-moz-placeholder {
-	color: rgba(255, 255, 255, 0.3);  /* Firefox 19+ */
+	color: rgb(224, 224, 224);  /* Firefox 19+ */
 }
 .contact-form :-ms-input-placeholder {
-	color: rgba(255, 255, 255, 0.3);
+	color: rgb(226, 226, 226);
 }
 .contact-form .placeholder {
-	color: rgba(255, 255, 255, 0.3) !important;
+	color: rgb(177, 177, 177) !important;
 }
 
 #contact form {
@@ -2311,8 +2320,8 @@ header .logo a {
 	letter-spacing: .1rem;
 	padding: 0 2rem;
 	margin: 0;
-	color: #FFFFFF;
-	background: #FF0077;
+	color: rgb(7, 2, 2);
+	background: rgb(248, 246, 247);
 }
 #contact form .form-field label::after {
 	position: absolute;
@@ -2321,7 +2330,7 @@ header .logo a {
 	margin-top: -6px;
 	border-top: 5px solid transparent;
 	border-bottom: 5px solid transparent;
-	border-right: 5px solid #FF0077;
+	border-right: 5px solid rgb(224, 224, 224);
 	content: "";
 }
 #contact input[type="text"],
@@ -2329,10 +2338,10 @@ header .logo a {
 #contact input[type="email"],
 #contact textarea {
 	width: 100%;
-	color: rgba(255, 255, 255, 0.7);
+	color: rgb(250, 250, 250);
 	margin-bottom: 0;
 	border: none;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	border-bottom: 1px solid rgb(255, 255, 255);
 }
 #contact input[type="text"],
 #contact input[type="password"],
@@ -2343,16 +2352,16 @@ header .logo a {
 #contact input[type="text"]:focus,
 #contact input[type="password"]:focus,
 #contact input[type="email"]:focus {
-	border-color: #FF0077;
-	color: #FFFFFF;
+	border-color: rgb(243, 243, 243);
+	color: rgb(255, 255, 255);
 }
 #contact textarea {
 	min-height: 20rem;
 	padding: 1.8rem 2rem;
 }
 #contact textarea:focus {
-	border-color: #FF0077;
-	color: #FFFFFF;
+	border-color: rgb(230, 230, 230);
+	color: rgb(255, 255, 255);
 }
 #contact button.submitform {
 	font-size: 1.5rem;
@@ -2363,11 +2372,11 @@ header .logo a {
 	padding: 0 3rem;
 	margin-top: 4.8rem;
 	width: 100%;
-	background: #FF0077;
-	color: #FFFFFF;
+	background: rgb(255, 183, 49);
+	color: rgb(0, 0, 0);
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
-	background: #cc005f;
+	background: #ffffff;
 }
 #message-warning, #message-success {
 	display: none;
@@ -2492,29 +2501,34 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 footer {
-	padding-bottom: 3rem;
+	padding-bottom: 2rem;
 	font-size: 1.4rem;
 	font-family: "poppins-regular", sans-serif;
+	background: #2b3980;
 }
 footer a, footer a:visited {
 	color: #FFFFFF;
 }
 footer a:hover, footer a:focus {
-	color: #FF0077;
+	color: rgb(230, 102, 102);
 }
 footer .row {
-	max-width: 900px;
+	max-width: 100%;
+
 }
 footer .social {
-	text-align: right;
+	position: relative;
+	left: 720px;
 }
 footer .footer-social {
 	display: inline-block;
-	font-size: 2.1rem;
-	margin: 0;
-	padding: 0;
-	position: relative;
+	font-size: 6rem;
+	margin: 40px;
+	padding: 0px;
 	top: -.3rem;
+}
+footer .footer-social  a:hover { 
+	color: rgb(0, 255, 191);
 }
 footer .footer-social li {
 	display: inline-block;
@@ -2531,7 +2545,7 @@ footer .copyright span::after {
 	content: "|";
 	display: inline-block;
 	padding: 0 1rem 0 1.2rem;
-	color: rgba(255, 255, 255, 0.1);
+	color: rgb(255, 255, 255);
 }
 footer .copyright span:last-child::after {
 	display: none;
@@ -2544,12 +2558,12 @@ footer .copyright span:last-child::after {
  */
 @media only screen and (max-width:768px) {
 	footer {
-		text-align: center;
+		text-align: right;
 	}
 	footer .social {
 		display: block;
 		width: 100%;
-		text-align: center;
+		text-align: right;
 		margin-bottom: 1.5rem;
 	}
 	footer .copyright span {
@@ -2579,8 +2593,8 @@ footer .copyright span:last-child::after {
 	width: 6rem;
 	line-height: 6.6rem;
 	text-align: center;
-	background: #cc005f;
-	color: #FFFFFF;
+	background: #c2cf0d;
+	color: rgb(0, 0, 0);
 	text-align: center;
 	text-transform: uppercase;
 	-moz-transition: all 0.3s ease-in-out;
@@ -2593,8 +2607,8 @@ footer .copyright span:last-child::after {
 	font-size: 1.6rem;
 	line-height: inherit;
 }
-#go-top a:hover {
-	background: #000000;
-}
+/* #go-top a:hover {
+	background: rgb(0, 0, 0);
+} */
 
 /*# sourceMappingURL=main.css.map */

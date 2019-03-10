@@ -203,7 +203,18 @@
       	window.location.hash = target;
       });
 
-  	});  
+	  });  
+
+	  $(document).ready(function(){
+		$('#mySlider').slick({
+			dots: true,
+ 			 infinite: true,
+  			speed: 300,
+			  slidesToShow: 2,
+			  arrows: false,
+  			adaptiveHeight: true
+		});
+	  });
   
 
    /*---------------------------------------------------- */
@@ -263,6 +274,9 @@
   		}
 
 	});
+
+	
+ 
 
 
  	/*----------------------------------------------------- */

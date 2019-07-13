@@ -165,7 +165,7 @@ p.lead {
 	font-family: "lora-regular", serif;
 	font-size: 2rem;
 	line-height: 1.8;
-	color: #888888;
+	color: #070707;
 }
 @media only screen and (max-width:768px) {
 	p.lead {
@@ -703,8 +703,9 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-	background: #ffc401;
-	color: rgb(5, 0, 0);
+	background: #e65153;
+	color: rgb(243, 243, 243);
+	border-style: double
 }
 .button.button-primary:hover,
 a.button.button-primary:hover,
@@ -717,7 +718,7 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-	background: #fc0000c2;
+	background: #fcfcfc;
 }
 button.full-width, .button.full-width {
 	width: 100%;
@@ -1045,12 +1046,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .section-intro h1 {
 	font-family: "poppins-semibold", serif;
 	font-size: 3.6rem;
-	color: #000000;
+	color: #c91d1d;
 	line-height: 1.25;
 	margin-bottom: 1.2rem;
 }
 .section-intro h5 {
-	color: rgb(255, 0, 0);
+	color: rgb(36, 36, 36);
 	font-size: 1.6rem;
 	line-height: 1.875;
 	margin-bottom: 0.3rem;
@@ -1303,14 +1304,14 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(../images/home2.jpeg) no-repeat center bottom;
+	background: #ececec url(../images/g10-min.jpg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
 	height: 100%;
-	min-height: 720px;
+	min-height: 700px;
 	display: table;
 	position: relative;
 	text-align: center;
@@ -1321,8 +1322,8 @@ header .logo a {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #111111;
-	opacity: .85;
+	background: #ffffff;
+	opacity: 0;
 }
 
 .intro-content {
@@ -1334,7 +1335,7 @@ header .logo a {
 	transform: translateY(-2.1rem);
 }
 .intro-content h1 {
-	color: #FFFFFF;
+	color: #2b2a2ae7;
 	font-family: "poppins-medium", sans-serif;
 	font-size: 8.4rem;
 	line-height: 1.071;
@@ -1343,17 +1344,17 @@ header .logo a {
 	margin-bottom: .6rem;
 	margin-left: auto;
 	margin-right: auto;
-	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	/* text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
 }
 .intro-content h5 {
-	color: #0affca;
+	color: #e65153;
 	font-family: "poppins-bold", sans-serif;
 	font-size: 2.3rem;
 	line-height: 1.565;
 	margin-bottom: 0;
 	text-transform: uppercase;
 	letter-spacing: .3rem;
-	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+	/* text-shadow: 0 0 6px rgba(0, 0, 0, 0.2); */
 }
 .intro-content .intro-position {
 	font-family: "lora-regular", serif;
@@ -1361,8 +1362,8 @@ header .logo a {
 	line-height: 2.4rem;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
-	color: #FFFFFF;
-	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+	color: #353333;
+	/* text-shadow: 0 0 6px rgba(0, 0, 0, 0.2); */
 }
 .intro-content .intro-position span {
 	display: inline-block;
@@ -1372,18 +1373,18 @@ header .logo a {
 	text-align: center;
 	display: inline-block;
 	padding: 0 8px 0 14px;
-	color: rgba(255, 255, 255, 0.3);
+	color: #e65153;
 }
 .intro-content .intro-position span:first-child::before {
 	content: "|";
 	text-align: center;
 	display: inline-block;
 	padding: 0 14px 0 8px;
-	color: rgba(255, 255, 255, 0.3);
+	color:#e65153;
 }
 .intro-content .button {
-	color: #FFFFFF !important;
-	border-color: rgba(255, 255, 255, 0.3);
+	color: #e65153 !important;
+	border-color: rgba(29, 29, 29, 0.521);
 	height: 6rem !important;
 	line-height: 5.4rem !important;
 	padding: 0 3.5rem 0 3rem !important;
@@ -1393,7 +1394,7 @@ header .logo a {
 	letter-spacing: .25rem;
 }
 .intro-content .button:hover, .intro-content .button:focus {
-	border-color: #03ffd5;
+	border-color: #e65153;
 }
 .intro-content .button::after {
 	display: inline-block;
@@ -1422,10 +1423,10 @@ header .logo a {
 	padding: 0;
 }
 .intro-social li a, .intro-social li a:visited {
-	color: #FFFFFF;
+	color: #272626;
 }
 .intro-social li a:hover, .intro-social li a:focus {
-	color: #00ffea;
+	color: #e65153;
 }
 
 /**
@@ -1499,7 +1500,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #about {
-	background: #FFFFFF;
+	background: #e6e6e6;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
@@ -1508,21 +1509,21 @@ header .logo a {
 }
 
 .intro-info {
-	margin-top: 4.2rem;
+	margin-top: 4.6rem;
 	margin-right: -60px;
-	margin-left: -80px;
+	margin-left: -60px;
 }
 .intro-info img {
 	height: 40rem;
 	width: 40rem;
 	border-radius: 25%;
-	margin: .8rem 2rem 2rem 2rem;
+	margin: 2rem 2rem 2rem 2rem;
 	float: left;
 }
 .intro-info .lead {
 	text-align: justify;
 	padding-left: 1rem;
-	word-spacing:-2px;
+	word-spacing: -2.3px;
 }
 
 .about-content {
@@ -1547,7 +1548,7 @@ header .logo a {
 }
 .about-content .info-list li strong {
 	font-family: "poppins-bold", sans-serif;
-	color: #313131;
+	color: #000000;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
@@ -1556,7 +1557,7 @@ header .logo a {
 .about-content .info-list li span {
 	display: block;
 	font-family: "poppins-regular", sans-serif;
-	color: #888888;
+	color: #000000;
 	font-size: 1.5rem;
 	line-height: 1;
 }
@@ -1639,7 +1640,7 @@ header .logo a {
 	text-align: center;
 }
 #resume .resume-header h2 {
-	color: rgb(230, 6, 6);
+	color: rgb(2, 2, 2);
 }
 
 #resume .resume-timeline {
@@ -2048,7 +2049,7 @@ header .logo a {
 	text-align: center;
 }
 #cta p.lead {
-	color: #6e6e6e;
+	color: #ffffff;
 }
 .cta-content {
 	max-width: 640px;
@@ -2062,6 +2063,7 @@ header .logo a {
 	width: 7.8rem;
 	border-radius: 50%;
 }
+
 
 /**
  * section ads - (_layout.scss)
@@ -2208,7 +2210,7 @@ header .logo a {
 	max-width: 1440px;
 }
 #stats .stat {
-	border-left: 1px solid rgba(255, 255, 255, 0.12);
+	border-left: 1px solid rgba(248, 248, 248, 0.12);
 	min-height: 17.4rem;
 }
 #stats .stat:first-child {
@@ -2274,7 +2276,7 @@ header .logo a {
 	color: rgb(255, 253, 253);
 }
 #contact .section-intro h5 {
-	color: rgb(248, 10, 10);
+	color: rgb(241, 240, 240);
 }
 #contact .section-intro p {
 	color: rgba(255, 255, 255, 0.952);

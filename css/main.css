@@ -481,7 +481,7 @@ img.pull-left {
 	border-top: 11px solid rgba(255, 255, 255, 0.1);
 	border-right: 11px solid rgba(255, 255, 255, 0.1);
 	border-bottom: 11px solid rgba(255, 255, 255, 0.1);
-	border-left: 11px solid rgb(0, 255, 221);
+	border-left: 11px solid #e68b8b;
 	-webkit-animation: load 1.1s infinite linear;
 	animation: load 1.1s infinite linear;
 	display: block;
@@ -718,7 +718,7 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-	background: #fcfcfc;
+	background: #413a3a;
 }
 button.full-width, .button.full-width {
 	width: 100%;
@@ -1030,10 +1030,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- 
  */
 .grey-section {
-	background: #ebebeb;
+	background: #ffffffef;
 }
 .grey-section p.lead {
-	color: #7d7d7d;
+	color: #272727;
 }
 .section-intro {
 	max-width: 700px;
@@ -1148,7 +1148,7 @@ header .logo a {
 }
 .menu-toggle span {
 	display: block;
-	background-color: rgb(40, 172, 182);
+	background-color: #e68b8b;
 	width: 24px;
 	height: 3px;
 	margin-top: -1.5px;
@@ -1206,7 +1206,7 @@ header .logo a {
 	background-color: rgba(202, 25, 108, 0);
 }
 .menu-toggle.is-clicked span::before, .menu-toggle.is-clicked span::after {
-	background-color: #16b6a1;
+	background-color: #e68b8b;
 	-moz-transition-delay: 0s, 0.2s;
 	-o-transition-delay: 0s, 0.2s;
 	-webkit-transition-delay: 0s, 0.2s;
@@ -1239,7 +1239,7 @@ header .logo a {
 
 /* dropdown nav */
 .main-navigation {
-	background: #0000006b;
+	background: #000000;
 	padding: 24px 30px 42px;
 	margin: 0;
 	width: 100%;
@@ -1255,7 +1255,7 @@ header .logo a {
 }
 .main-navigation li a {
 	display: block;
-	color: rgba(0, 255, 213, 0.986);
+	color: #e68b8b;
 	width: auto;
 	padding: 15px 3px;
 	line-height: 16px;
@@ -1500,7 +1500,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #about {
-	background: #e6e6e6;
+	background: #ffffff;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
@@ -1572,7 +1572,7 @@ header .logo a {
 	width: 250px;
 }
 .button-section [class*="col-"] .button:first-child {
-	margin-right: 4rem;
+	margin-right: 0rem;
 }
 
 /**
@@ -1640,7 +1640,7 @@ header .logo a {
 	text-align: center;
 }
 #resume .resume-header h2 {
-	color: rgb(2, 2, 2);
+	color: rgb(20, 18, 18);
 }
 
 #resume .resume-timeline {
@@ -1658,7 +1658,7 @@ header .logo a {
 	height: 100%;
 	background: rgba(0, 0, 0, 0.1);
 	position: absolute;
-	left: 35%;
+	left: 50%;
 	top: 0;
 }
 #resume .timeline-block {
@@ -1674,7 +1674,7 @@ header .logo a {
 	text-align: center;
 	color: #FFFFFF;
 	position: absolute;
-	left: 35%;
+	left: 50%;
 	top: .9rem;
 	margin-left: -2.4rem;
 }
@@ -1686,32 +1686,36 @@ header .logo a {
 
 #resume .timeline-header {
 	float: left;
-	width: 40%;
+	width: 53%;
 	padding-right: 90px;
 	text-align: right;
 }
 #resume .timeline-header h3 {
 	margin-bottom: 0;
+	color: #e65153;
 }
 #resume .timeline-header p {
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.6rem;
-	color: #888888;
+	color: #020202;
 }
 #resume .timeline-content {
-	margin-left: 35%;
+	margin-left: 50%;
 	padding-left: 60px;
+}
+#resume .timeline-content p {
+	color: #e01c20;
 }
 #resume .timeline-content h4 {
 	position: relative;
-	padding-bottom: 1.8rem;
+	padding-bottom: 1.4rem;
 }
 #resume .timeline-content h4::after {
 	content: "";
 	display: block;
-	height: 3px;
+	height: 2px;
 	width: 50px;
-	background: rgba(0, 0, 0, 0.2);
+	background: rgba(255, 80, 80, 0.884);
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -2140,7 +2144,7 @@ header .logo a {
 	color: white;
 }
 #services .section-intro h5 {
-	color: rgb(0, 255, 221);
+	color: #e68b8b;
 }
 #services .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
@@ -2268,15 +2272,15 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #contact {
-	background: #3f3f3f;
+	background: #e68b8b;
 	padding-top: 12rem;
 	padding-bottom: 7.2rem;
 }
 #contact .section-intro h1 {
-	color: rgb(255, 253, 253);
+	color: rgb(37, 29, 29);
 }
 #contact .section-intro h5 {
-	color: rgb(241, 240, 240);
+	color: rgb(58, 34, 34);
 }
 #contact .section-intro p {
 	color: rgba(255, 255, 255, 0.952);
@@ -2288,16 +2292,16 @@ header .logo a {
 }
 
 .contact-form ::-webkit-input-placeholder {
-	color: rgba(247, 245, 245, 0.452);
+	color: rgb(14, 2, 2);
 }
 .contact-form :-moz-placeholder {
-	color: rgb(252, 252, 252);  /* Firefox 18- */
+	color: rgb(182, 167, 167);  /* Firefox 18- */
 }
 .contact-form ::-moz-placeholder {
 	color: rgb(224, 224, 224);  /* Firefox 19+ */
 }
 .contact-form :-ms-input-placeholder {
-	color: rgb(226, 226, 226);
+	color: rgb(235, 31, 31);
 }
 .contact-form .placeholder {
 	color: rgb(177, 177, 177) !important;
@@ -2328,8 +2332,8 @@ header .logo a {
 	letter-spacing: .1rem;
 	padding: 0 2rem;
 	margin: 0;
-	color: rgb(7, 2, 2);
-	background: rgb(248, 246, 247);
+	color: rgb(12, 12, 12);
+	background: rgb(255, 255, 255);
 }
 #contact form .form-field label::after {
 	position: absolute;
@@ -2338,7 +2342,7 @@ header .logo a {
 	margin-top: -6px;
 	border-top: 5px solid transparent;
 	border-bottom: 5px solid transparent;
-	border-right: 5px solid rgb(224, 224, 224);
+	border-right: 5px solid rgb(255, 255, 255);
 	content: "";
 }
 #contact input[type="text"],
@@ -2380,8 +2384,8 @@ header .logo a {
 	padding: 0 3rem;
 	margin-top: 4.8rem;
 	width: 100%;
-	background: rgb(255, 183, 49);
-	color: rgb(0, 0, 0);
+	background: rgb(255, 255, 255);
+	color: rgb(24, 24, 24);
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
 	background: #ffffff;
@@ -2443,7 +2447,7 @@ header .logo a {
 	color: #FFFFFF;
 }
 .contact-info h5 {
-	color: rgb(0, 255, 221);
+	color: #e68b8b;
 }
 
 /**
@@ -2512,7 +2516,7 @@ footer {
 	padding-bottom: 2rem;
 	font-size: 1.4rem;
 	font-family: "poppins-regular", sans-serif;
-	background: #010102;
+	background: #e68b8b;
 }
 footer a, footer a:visited {
 	color: #FFFFFF;
@@ -2536,7 +2540,7 @@ footer .footer-social {
 	top: -.3rem;
 }
 footer .footer-social  a:hover { 
-	color: rgb(0, 255, 191);
+	color: #e68b8b;
 }
 footer .footer-social li {
 	display: inline-block;
@@ -2601,7 +2605,7 @@ footer .copyright span:last-child::after {
 	width: 6rem;
 	line-height: 6.6rem;
 	text-align: center;
-	background: #c2cf0d;
+	background: #f7f7f7;
 	color: rgb(0, 0, 0);
 	text-align: center;
 	text-transform: uppercase;

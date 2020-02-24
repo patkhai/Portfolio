@@ -165,7 +165,7 @@ p.lead {
 	font-family: "lora-regular", serif;
 	font-size: 2rem;
 	line-height: 1.8;
-	color: #070707;
+	color: #f5e3e3;
 }
 @media only screen and (max-width:768px) {
 	p.lead {
@@ -973,7 +973,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	line-height: 2.4rem;
 }
 .skill-bars li .progress {
-	background: #e40000;
+	background: #fa3535;
 	position: relative;
 	height: 100%;
 }
@@ -983,6 +983,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	top: -3.6rem;
 	display: block;
 	font-family: "poppins-regular", sans-serif;
+	text-rendering: optimizeLegibility;
 	color: white;
 	font-size: 1.1rem;
 	line-height: 1;
@@ -1033,7 +1034,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	background: #ffffffef;
 }
 .grey-section p.lead {
-	color: #272727;
+	color: #ffffff;
 }
 .section-intro {
 	max-width: 700px;
@@ -1046,7 +1047,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .section-intro h1 {
 	font-family: "poppins-semibold", serif;
 	font-size: 3.6rem;
-	color: #c91d1d;
+	color: #fdfdfd;
 	line-height: 1.25;
 	margin-bottom: 1.2rem;
 }
@@ -1335,7 +1336,7 @@ header .logo a {
 	transform: translateY(-2.1rem);
 }
 .intro-content h1 {
-	color: #2b2a2ae7;
+	color: #5a5757e7;
 	font-family: "poppins-medium", sans-serif;
 	font-size: 8.4rem;
 	line-height: 1.071;
@@ -1500,7 +1501,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #about {
-	background: #ffffff;
+	background: #858688;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
